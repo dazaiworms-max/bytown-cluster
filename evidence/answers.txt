@@ -1,0 +1,3 @@
+Q1: In Swarm, the manager saw a task drop below the target count and spun up a new container; in K3s, the Deployment's ReplicaSet controller noticed a missing pod and created another one to keep the desired replicas running.
+Q2: Docker Swarm is fast to set up and simple for small clusters, while K3s is lightweight for local or edge setups while still using standard Kubernetes objects and APIs.
+Q3: Kubernetes started new 1.1 pods and waited for them to become ready before removing old 1.0 pods, while the Service only sent traffic to ready pods so the site stayed up.
